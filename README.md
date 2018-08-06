@@ -4,7 +4,7 @@
 - - -
 1.部署时配置 v2ray core 的版本、Vmess协议的UUID、AlterId、Path和连接缓存。
 
-2.v2ray服务端部署后,v2ray端口为80
+2.v2ray服务端部署后,v2ray端口为443
 
 3.如果输入AppName变量，则自动生成订阅地址和二维码，通过配置V2_QR_Path变量修改地址
 二维码地址：https://test.herokuapp.com/1234/v2.png
