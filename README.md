@@ -2,6 +2,8 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 - - -
 - - -
+0.最高支持v2ray 3.46
+
 1.部署时配置 v2ray core 的版本、Vmess协议的UUID、AlterId、Path和连接缓存。
 
 2.v2ray服务端部署后,v2ray端口为443
