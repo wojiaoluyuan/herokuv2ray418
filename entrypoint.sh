@@ -85,7 +85,7 @@ cat <<-EOF > /v2raybin/v2ray-$V_VER-linux-$SYS_Bit/config.json
 EOF
 
 cat <<-EOF > /caddybin/Caddyfile
-http://0.0.0.0:${PORT}
+http://0.0.0.0:30254
 {
 	root /wwwroot
 	index index.html
@@ -102,7 +102,7 @@ cat <<-EOF > /v2raybin/vmess.json
     "v": "2",
     "ps": "${AppName}.herokuapp.com",
     "add": "${AppName}.herokuapp.com",
-    "port": "443",
+    "port": ["443","80"],
     "id": "${UUID}",
     "aid": "${AlterID}",			
     "net": "ws",			
