@@ -2,7 +2,8 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 - - -
 - - -
-0.Fork自https://github.com/wpyok500/Heroku-v2ray-1。最高支持v2ray 3.46
+0.Fork自https://github.com/wpyok500/Heroku-v2ray-1
+#最高支持v2ray 3.46
 
 1.部署时配置 v2ray core 的版本、Vmess协议的UUID、AlterId、Path和连接缓存。
 
